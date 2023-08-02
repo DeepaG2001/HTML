@@ -1,0 +1,14 @@
+body{
+    background-color:rgb(236, 221, 221);
+    
+}
+body img{
+    height: 90px;
+    aspect-ratio: auto 86 / 90;
+    width: 86px;
+}
+body img {
+    height: 70px;
+    aspect-ratio: auto 86 / 90;
+    width: 90px;
+}

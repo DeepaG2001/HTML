@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Registration form</title>
+    <link rel="StyleSheet" href="Form.css">
+</head>
+
+<body>
+    <form class="form">
+        <h2 style="margin-left: 10px;">Registration</h2>
+
+        <div id="nameId">
+            Candidate Name<span style="color: red;"> *</span>
+            <input type="text" name="nameInput" style="margin-left: 4px;" required>
+        </div><br>
+
+        <div id="First">
+            First Name<span style="color: red;"> *</span>
+            <input type="text" name="nameInput" style="margin-left: 38px;" required>
+        </div><br>
+
+        <div id="Middle">
+            Middle Name<span style="color: red;"></span>
+            <input type="text" name="nameInput" style="margin-left: 34px;">
+        </div><br>
+
+        <div id="Last">
+            Last Name<span style="color: red;"> *</span>
+            <input type="text" name="nameInput" style="margin-left: 40px;" required>
+        </div><br>
+
+        <div id="email">
+            Email<span style="color: red;"> *</span>
+            <input type="text" name="nameInput" style="margin-left: 70px;" required>
+        </div><br>
+
+        <div id="password">
+            Password<span style="color: red;"> *</span>
+            <input type="text" name="nameInput" style="margin-left: 46px;" visibility: collapse;required>
+        </div><br>
+        
+        <div id="Conform">
+            Conform Password<span style="color: red;"> *</span>
+            <input type="text" name="nameInput" style="margin-left: -3px;"visibility: collapse; required>
+        </div><br>
+
+        <div id="College">
+            College Nmae<span style="color: red;"> *</span>
+            <input type="text" name="nameInput" style="margin-left: 14px;" required>
+        </div><br>
+
+        <div class="Date">
+            Date of Birth
+            <input type="date" id="dateId" value="" style="margin-left: 33px">
+        </div><br>
+        <div id="shiftId">
+            Select Shift:
+            <select>
+                <option value="morningShift">Morning</option>
+                <option value="eveningShift">Evening</option>
+                <option value="nightShift">Night</option>
+            </select>
+        </div><br>
+
+        <div id="genderId">
+            please select gender:
+            <input type="radio" id="male" name="male" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="male" value="Male">
+            <label for="female">Female</label>
+        </div><br>
+        <div id="techSkill">
+            Select Technicalskill:
+            <input type="checkbox" id="inp1" name="checkName">
+            <label for="inp1">C</label><br>
+            <input type="checkbox" id="inp2" name="checkName">
+            <label for="inp2">Java</label><br>
+            <input type="checkbox" id="inp3" name="checkName">
+            <label for="inp3">Python</label><br>
+            <input type="checkbox" id="inp4" name="checkName">
+            <label for="inp4">C++</label><br>
+            <input type="checkbox" id="inp5" name="checkName">
+            <label for="inp5">.Net</label><br>
+            <br>
+
+        </div><br>
+
+        <div id="button">
+            <input id="button1" type="submit" id="buttonId" value="Register">
+            <input id="button2" type="reset" id="buttonId" value="Cancel">
+        </div>
+
+    </form>
+</body>
+
+</html>
